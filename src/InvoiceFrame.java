@@ -152,4 +152,8 @@ public class InvoiceFrame extends JFrame {
         invoiceText.append("\nAmount Due: ").append("$" + invoice.computeTotal());
         invoiceTextArea.setText(invoiceText.toString());
     }
+
+    public void displayInvoice(){
+        setVisible(true);
+    }
 }
